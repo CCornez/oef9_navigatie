@@ -19,9 +19,6 @@ nav ul {
   display: flex;
   justify-content: space-between;
 }
-nav ul li {
-  height: 100%;
-}
 nav ul li a {
   display: block;
   border-right: 1px solid #252527;
