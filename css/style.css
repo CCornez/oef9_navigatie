@@ -9,39 +9,67 @@ body {
 }
 nav {
   margin: 33px 0;
-  background-color: #363636;
-  color: white;
+  position: relative;
 }
 nav a {
   color: white;
 }
-nav ul {
+nav > ul {
   display: flex;
+  background-color: #252527;
   justify-content: space-between;
+}
+nav ul li {
+  background-color: #363636;
+}
+nav > ul > li {
+  margin-right: 1px;
+  position: relative;
 }
 nav ul li a {
   display: block;
-  border-right: 1px solid #252527;
   padding: 10px 13px 5px 13px;
   text-transform: uppercase;
   font-family: "Bebas Neue", cursive;
   font-size: 20px;
   text-decoration: none;
+  transition: all 300ms;
 }
-nav ul li:first-child {
-  display: flex;
-}
-.home {
+nav > ul > li:first-child a {
+  color: #66bbfe;
   font-size: 17px;
+}
+nav ul li a:hover {
+  color: #66bbfe;
+}
+nav > ul ul {
+  display: none;
+  width: calc(100% + 2px);
+  position: absolute;
+  left: -1px;
+  top: 35px;
+}
+nav > ul ul li a {
+  background-color: #585858;
+  border: 1px solid #363636;
+  border-top: none;
+}
+nav > ul ul li:first-child a {
+  border-top: 1px solid #252527;
+}
+nav > ul > li:hover > ul {
+  display: block;
 }
 .logos {
-  margin-left: auto;
+  width: 100%;
   display: flex;
+  justify-content: flex-end;
 }
 .logos a {
-  border: none;
   padding: 10px 5px 5px 5px;
+  color: #66bbfe;
   font-size: 17px;
+  text-align: right;
 }
 .logos a:last-child {
   padding-right: 15px;
