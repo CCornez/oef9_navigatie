@@ -1,0 +1,24 @@
+@import "reset.css";
+@import "../icons/style.css";
+
+body {
+  background-color: gray;
+}
+nav {
+  margin: 33px;
+  background-color: black;
+  color: white;
+}
+nav a {
+  color: white;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+nav ul li {
+  text-transform: uppercase;
+}
+nav ul li a {
+  width: 100%;
+}
