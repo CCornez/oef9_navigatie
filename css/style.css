@@ -1,12 +1,13 @@
 @import "reset.css";
 @import "../icons/style.css";
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 body {
   background-color: gray;
 }
 nav {
   margin: 33px;
-  background-color: black;
+  background-color: #252527;
   color: white;
 }
 nav a {
@@ -18,6 +19,7 @@ nav ul {
 }
 nav ul li {
   text-transform: uppercase;
+  font-family: "Bebas Neue", cursive;
 }
 nav ul li a {
   width: 100%;

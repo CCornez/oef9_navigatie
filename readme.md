@@ -1,5 +1,5 @@
-# Portfolio
+# Navigatie
 
-## This is a project to learn html, css and javascript
+## Met dit project leer ik wat meer over navigatiebalken en hun werking
 
-You can find the result [here](http://fe-cc-portfolio.surge.sh/)
+Mijn werk kunt u [hier](http://fe-cc9.surge.sh/) terugvinden
